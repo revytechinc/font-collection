@@ -1,0 +1,5 @@
+Valyrio — Low Valyrian family (Astapori, Meereenese, and related).
+J'asata.
+Skoros yne vēttas?
+This pack ships no unique Valyrio script; render in Latin transcription with Noto Sans.
+Encoding: UTF-8 Latin (macrons as in related High Valyrian pedagogical text).

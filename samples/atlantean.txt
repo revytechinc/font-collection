@@ -1,0 +1,7 @@
+Dig Adlantisag (Atlantean) — Latin Standard Transcription only.
+Wilak tagen, Kekam.
+Mok yasek ta-Wilag.
+gmusin de-lotokh shibib net de-lotokh gmusin.
+Inventory: a b g d e u w h i y k l m n o p r s sh t (ASCII + digraph sh).
+No Disney native-script fonts are shipped.
+Encoding: UTF-8 / Basic Latin.

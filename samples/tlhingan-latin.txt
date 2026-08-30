@@ -1,0 +1,7 @@
+nuqneH
+tlhIngan maH!
+Qapla'
+bISovbejbe'chugh vaj bISovbe'.
+tlhIngan Hol in Latin (xifan hol) transcription.
+pIqaD CSUR sample: tlhingan-piqad.txt
+Encoding: UTF-8 / Basic Latin (case-significant: H I S D Q vs h i s d q).

@@ -1,0 +1,5 @@
+Elen síla lúmenn' omentielvo.
+Namárië! Nai hiruvalyë Valimar!
+Ai! laurië lantar lassi súrinen.
+Quenya in Latin transcription (this file). Tengwar PUA sample: quenya-tengwar.txt
+Encoding: UTF-8 Latin.

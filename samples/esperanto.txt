@@ -1,0 +1,5 @@
+Saluton, mondo!
+Ĉiuj homoj estas denaske liberaj kaj egalaj laŭ digno kaj rajtoj.
+Ĉ ĉ Ĝ ĝ Ĥ ĥ Ĵ ĵ Ŝ ŝ Ŭ ŭ
+Ĝirafo, ĥoro, ĵaŭdo, ŝipo, ankaŭ.
+Encoding: UTF-8; Latin Extended-A circumflex and breve.

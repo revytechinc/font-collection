@@ -2,6 +2,12 @@ BSD 3-Clause License
 
 Copyright (c) 2026, REVYTECH, Inc.
 
+This LICENSE covers the REVYTECH font collection packaging (directory layout,
+Makefile, installers, fontconfig snippets, documentation, demo page, and
+console PSF generation scripts) only. Individual font files remain under
+their original SIL Open Font License 1.1 texts, copied as OFL.txt next to
+each face. See NOTICE and THIRD_PARTY.md.
+
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 

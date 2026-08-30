@@ -1,0 +1,7 @@
+Dif-tor heh smusma.
+Golic Vulcan in Latin transcription.
+Native Golic (gotavlu-zukitaun) is a joining script with no Unicode/CSUR block.
+CloudBSD does not ship Zun or Iyik.
+To typeset native Golic for personal use, request Zun by email from skladan at korsaya.org.
+We do not redistribute Zun.
+Encoding: UTF-8 / Basic Latin.

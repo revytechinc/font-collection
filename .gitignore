@@ -1,0 +1,7 @@
+.upstream/
+__pycache__/
+*.pyc
+.env
+*.swp
+*~
+.DS_Store

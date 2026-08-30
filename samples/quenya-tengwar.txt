@@ -1,0 +1,11 @@
+Namárië (Quenya) in Alcarin Tengwar (CSUR-based PUA U+E000+).
+Requires Alcarin Tengwar + OpenType GPOS for tehtar. Not a console encoding.
+Full poem: quenya-tengwar-namarie.txt (from upstream Sample texts.txt, OFL).
+
+:     ⸱
+    
+    ·
+  ·
+
+Latin: Ai! laurië lantar lassi súrinen,
+yéni únótimë ve rámar aldaron!

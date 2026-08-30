@@ -1,0 +1,4 @@
+CloudBSD constructed-language font pack
+The quick brown fox jumps over the lazy dog.
+0123456789 ASCII punctuation: ,.;:!? '" () []
+English is first. This file is UTF-8 / Basic Latin.

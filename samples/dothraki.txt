@@ -1,0 +1,6 @@
+Shekh ma shieraki anni.
+Hash yer dothrae chek?
+Anha dothrak qoy qoyi.
+Khalakka dothrae mr'anha.
+Dothraki romanization is ASCII (digraphs ch sh zh th kh; geminates tth ssh zzh cch kkh).
+Encoding: UTF-8 / Basic Latin.

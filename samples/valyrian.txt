@@ -1,0 +1,5 @@
+Valar morghūlis. Valar dohaeris.
+Sȳz dārys.
+Ā ā Ē ē Ī ī Ō ō Ū ū Ȳ ȳ
+High Valyrian official romanization uses macrons for long vowels; ȳ is Latin Extended-B U+0233.
+Encoding: UTF-8; Latin Extended-A + U+0232/U+0233.

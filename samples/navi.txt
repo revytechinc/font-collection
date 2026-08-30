@@ -1,0 +1,7 @@
+Kaltxì. Oel ngati kameie.
+Lìʼfya leNaʼvi
+tìftang (glottal stop): ʼ U+02BC
+Vowels: ì Ì ä Ä ù Ù
+Ngaru lu fpom srak?
+Px, tx, kx, ts, ng, aw, ew, ay, ey are ASCII digraphs.
+Encoding: UTF-8; Latin-1 + U+02BC MODIFIER LETTER APOSTROPHE.

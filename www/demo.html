@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REVYTECH font collection — specimen</title>
+<style>
+/* Every custom family is declared with unicode-range and used below. */
+
+/* Noto Sans — Latin UI (English + Latin conlangs) */
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/latn/noto-sans/woff2/NotoSans-Regular.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/latn/noto-sans/woff2/NotoSans-Bold.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Noto Sans Mono — terminal / samples */
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("../fonts/latn/noto-sans-mono/woff2/NotoSansMono-Regular.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("../fonts/latn/noto-sans-mono/woff2/NotoSansMono-Bold.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* pIqaD qolqoS — Klingon CSUR default */
+@font-face {
+  font-family: "pIqaD qolqoS";
+  src: url("../fonts/tlh/qolqos/woff2/pIqaD-qolqoS.woff2") format("woff2");
+  unicode-range: U+F8D0-F8FF;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Klingon pIqaD HaSta — display extra (same CSUR range, different face) */
+@font-face {
+  font-family: "Klingon pIqaD HaSta";
+  src: url("../fonts/tlh/hasta/woff2/Klingon-pIqaD-HaSta.woff2") format("woff2");
+  unicode-range: U+F8D0-F8FF;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* Alcarin Tengwar — Quenya PUA */
+@font-face {
+  font-family: "Alcarin Tengwar";
+  src: url("../fonts/qya/alcarin/woff2/AlcarinTengwar-Regular.woff2") format("woff2");
+  unicode-range: U+E000-E07F;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alcarin Tengwar";
+  src: url("../fonts/qya/alcarin/woff2/AlcarinTengwar-Bold.woff2") format("woff2");
+  unicode-range: U+E000-E07F;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* Stacked collection family: Noto Latin + qolqoS pIqaD + Alcarin tengwar */
+@font-face {
+  font-family: "REVYTECH Collection";
+  src: url("../fonts/latn/noto-sans/woff2/NotoSans-Regular.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "REVYTECH Collection";
+  src: url("../fonts/latn/noto-sans/woff2/NotoSans-Bold.woff2") format("woff2");
+  unicode-range: U+0000-024F, U+02BC;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "REVYTECH Collection";
+  src: url("../fonts/tlh/qolqos/woff2/pIqaD-qolqoS.woff2") format("woff2");
+  unicode-range: U+F8D0-F8FF;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "REVYTECH Collection";
+  src: url("../fonts/qya/alcarin/woff2/AlcarinTengwar-Regular.woff2") format("woff2");
+  unicode-range: U+E000-E07F;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "REVYTECH Collection";
+  src: url("../fonts/qya/alcarin/woff2/AlcarinTengwar-Bold.woff2") format("woff2");
+  unicode-range: U+E000-E07F;
+  font-weight: 700;
+  font-display: swap;
+}
+
+html { color-scheme: light dark; }
+body {
+  margin: 0 auto;
+  max-width: 52rem;
+  padding: 1.5rem 1.25rem 3rem;
+  font-family: "Noto Sans", "REVYTECH Collection", sans-serif;
+  line-height: 1.5;
+}
+h1 { font-size: 1.6rem; font-weight: 700; }
+h2 { font-size: 1.15rem; margin-top: 1.75rem; border-bottom: 1px solid currentColor; padding-bottom: .2rem; }
+.note { font-size: .9rem; opacity: .85; }
+.sample { font-size: 1.25rem; margin: .4rem 0 1rem; font-family: "Noto Sans", "REVYTECH Collection", sans-serif; }
+.tengwar { font-family: "Alcarin Tengwar", "REVYTECH Collection", sans-serif; font-size: 1.8rem; line-height: 1.8; font-weight: 400; }
+.tengwar-bold { font-family: "Alcarin Tengwar", sans-serif; font-size: 1.8rem; line-height: 1.8; font-weight: 700; }
+.piqad { font-family: "pIqaD qolqoS", "REVYTECH Collection", sans-serif; font-size: 2rem; line-height: 1.6; }
+.hasta { font-family: "Klingon pIqaD HaSta", sans-serif; font-size: 2rem; line-height: 1.6; }
+.mono { font-family: "Noto Sans Mono", monospace; font-size: 1rem; font-weight: 400; }
+.mono-bold { font-family: "Noto Sans Mono", monospace; font-size: 1rem; font-weight: 700; }
+code { font-family: "Noto Sans Mono", monospace; font-size: .9em; }
+footer { margin-top: 2.5rem; font-size: .85rem; opacity: .8; }
+</style>
+</head>
+<body>
+<h1>REVYTECH font collection</h1>
+<p>English first. Packaged by REVYTECH, Inc. (BSD 3-Clause packaging). Font files remain SIL OFL 1.1. Font license is not a trademark license (CBS / Disney / Tolkien Estate / Paramount).</p>
+<p class="note">This page <code>@font-face</code>s <strong>every</strong> family with <code>unicode-range</code>: Noto Sans (400/700), Noto Sans Mono (400/700), pIqaD qolqoS, Klingon pIqaD HaSta, Alcarin Tengwar (400/700).</p>
+
+<h2>English (en)</h2>
+<p class="sample">The quick brown fox jumps over the lazy dog. REVYTECH font collection — Regular and <strong>Bold</strong>.</p>
+<p class="mono">Noto Sans Mono Regular: ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</p>
+<p class="mono-bold">Noto Sans Mono Bold: ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</p>
+
+<h2>Esperanto (eo)</h2>
+<p class="sample">Saluton, mondo! Ĉiuj homoj estas denaske liberaj kaj egalaj laŭ digno kaj rajtoj. Ĉĉ Ĝĝ Ĥĥ Ĵĵ Ŝŝ Ŭŭ</p>
+
+<h2>Dothraki</h2>
+<p class="sample">Shekh ma shieraki anni. Hash yer dothrae chek? Anha dothrak qoy qoyi.</p>
+<p class="note">Official romanization is ASCII (digraphs ch sh zh th kh).</p>
+
+<h2>Lìʼfya leNaʼvi</h2>
+<p class="sample">Kaltxì. Oel ngati kameie. Lìʼfya leNaʼvi — tìftang ʼ (U+02BC), ì ä ù.</p>
+
+<h2>Quenya (qya) — Latin</h2>
+<p class="sample">Elen síla lúmenn' omentielvo. Namárië! Nai hiruvalyë Valimar!</p>
+
+<h2>Quenya — tengwar (Alcarin, PUA)</h2>
+<p class="note">CSUR-based mapping primarily U+E000–U+E07F. Tehtar need OpenType; a console cannot place them. Regular then <strong>Bold</strong> cuts.</p>
+<p class="tengwar">:     ⸱<br>
+    <br>
+    ·<br>
+  ·</p>
+<p class="tengwar-bold">:     ⸱<br>
+    <br>
+    ·<br>
+  ·</p>
+<p class="sample">Ai! laurië lantar lassi súrinen, yéni únótimë ve rámar aldaron!</p>
+
+<h2>Valyrian (High)</h2>
+<p class="sample">Valar morghūlis. Valar dohaeris. Sȳz dārys. Āā Ēē Īī Ōō Ūū Ȳȳ (U+0232/U+0233).</p>
+
+<h2>Valyrio (Low Valyrian)</h2>
+<p class="sample">J'asata. Skoros yne vēttas? Valyrio is the Low Valyrian family; this pack uses Latin transcription only.</p>
+
+<h2>Dig Adlantisag (Atlantean) — Latin</h2>
+<p class="sample">Wilak tagen, Kekam. Mok yasek ta-Wilag. Standard Transcription: ASCII plus the digraph <code>sh</code>.</p>
+<p class="note">No Disney native-script fonts are shipped.</p>
+
+<h2>tlhIngan Hol (tlh) — pIqaD (CSUR U+F8D0–U+F8FF)</h2>
+<p class="note">Default face: pIqaD qolqoS (OFL). HaSta is a display extra on the same range. U+F8FF glyph: see <a href="https://hol.kag.org">hol.kag.org</a>.</p>
+<p class="piqad"><br>
+ <br>
+</p>
+<p class="note">Klingon pIqaD HaSta (display):</p>
+<p class="hasta"><br>
+ <br>
+</p>
+<p class="sample">nuqneH — tlhIngan Hol — Qapla' (Latin xifan hol)</p>
+
+<h2>Vulcan / Golic — Latin</h2>
+<p class="sample">Dif-tor heh smusma.</p>
+<p class="note">No native Golic font is shipped (joining script, no Unicode block). Request Zun by email from skladan at korsaya.org for personal use. We do not redistribute Zun.</p>
+
+<footer>
+<p>Packaging © 2026 REVYTECH, Inc. (BSD 3-Clause). Fonts: SIL OFL 1.1. See NOTICE and THIRD_PARTY.md.</p>
+</footer>
+</body>
+</html>

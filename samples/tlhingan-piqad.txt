@@ -1,0 +1,14 @@
+tlhIngan Hol in CSUR pIqaD (U+F8D0-U+F8FF). Requires pIqaD qolqoS.
+Latin source follows each pIqaD line.
+
+
+nuqneH
+
+ 
+tlhIngan Hol
+
+
+Qapla'
+
+
+0123456789
