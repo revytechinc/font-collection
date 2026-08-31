@@ -1,7 +1,7 @@
 # Languages and script coverage
 
-English is first. Constructed and fictional languages are kept on purpose. Vulcan / Golic is included by
-request (native script not shipped).
+English is first. Constructed and fictional languages are kept on purpose. Vulcan / Golic ships an
+informal web extra (Iyik overlay). Native Zun is not shipped.
 
 Status keys:
 * **unique script** — a non-Latin writing system with a shippable font (or a
@@ -21,7 +21,7 @@ Status keys:
 | Valyrian | — | Latin (macrons + ȳ U+0232/U+0233) | Noto |
 | Valyrio | — | Latin (Low Valyrian family) | Noto |
 | tlhIngan Hol | tlh | unique script: pIqaD CSUR U+F8D0–U+F8FF; also Latin xifan hol | pIqaD qolqoS (default) + optional HaSta; Noto Latin |
-| Vulcan / Golic | — | unique script **not shipped** (joining Golic; no Unicode); **Latin** transcription | Noto Latin. Request Zun from skladan at korsaya.org for personal use. We do not redistribute Zun. |
+| Vulcan / Golic | — | unique script: **no Unicode/CSUR**; informal **Latin overlay** extra (Iyik); Zun **not shipped** | Iyik (+ Kitaun/Tanaf/Golsu/Dzhaleyl) as **web/specimen extras only**, not OFL OS default. Noto Latin transcription. Request Zun from skladan at korsaya.org. We do not redistribute Zun. |
 
 Guidelines list (fictional / constructed subset, English first): English,
 Dig Adlantisag, Dothraki, Esperanto, Lìʼfya leNaʼvi, Quenya, Valyrian,
@@ -38,6 +38,7 @@ Cyrillic orthographies; this collection does not vendor CJK/Arabic/etc. Noto fac
 | Noto Sans / Mono | Basic Latin, Latin-1, Latin Extended-A, Latin Extended-B (incl. ȳ), U+02BC |
 | pIqaD qolqoS / HaSta | U+F8D0–U+F8FF (CSUR pIqaD) |
 | Alcarin Tengwar | primarily U+E000–U+E07F (some extras may sit beyond U+E07F) |
+| Iyik / Kitaun / Tanaf / Golsu / Dzhaleyl (web extra, not OFL) | Latin-1 overlay dingbat U+0000–00FF; **not** a Golic Unicode range |
 
 ## Console (PSF2)
 
@@ -46,5 +47,5 @@ Cyrillic orthographies; this collection does not vendor CJK/Arabic/etc. Noto fac
 | CloudBSD-Latn-8x16 | `fonts/console/psf/CloudBSD-Latn-8x16.psf` | 512 glyphs, 8×16. ASCII + Latin-1 + eo + Naʼvi + Valyrian extras from Noto Sans Mono. |
 | CloudBSD-Piqd-16x16 | `fonts/console/psf/CloudBSD-Piqd-16x16.psf` | 512 glyphs, 16×16. Latin-1 from Noto + U+F8D0–U+F8FF from qolqoS. |
 | Tengwar | **none** | Combining tehtar need OpenType GPOS. |
-| Golic native | **none** | No Unicode cmap; joining script. |
+| Golic native | **none** | No Unicode cmap; joining script. Iyik overlay is web-only, not PSF. |
 | Atlantean native | **none** | Not redistributable. |

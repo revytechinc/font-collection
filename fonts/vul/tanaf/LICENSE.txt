@@ -1,0 +1,31 @@
+Tanaf (Tanaf Kitaun, ceremonial / formal script) — informal redistribution grant
+Author: Zavel (Vulcan Quest). Same 2019 zip and grant as Iyik.
+Tanaf is NOT Zun-compatible (many more combination glyphs; keys assigned
+logically, not as a Zun overlay).
+
+Source:
+  https://vulcanquest.wordpress.com/2019/12/22/fonts/
+  https://drive.google.com/open?id=16tLCiEGhsjB_kO_wIOHylEYcGLdp5oBh
+  File in zip: v fonts/tanaf.ttf  (internal font name “tanaf”)
+
+Quoted grant (WordPress post 2019-12-22):
+
+> Tanaf Kitaun is the formal script. I shortened the name to Tanaf. This
+> is that font with lovely circular swirls. This font is for learning to
+> read the formal script.
+
+> Tanaf Kitaun is different and is not compatible with Zun.
+
+> All of these fonts are free to distribute to anyone who wants them.
+
+2025-11-17 (same author):
+
+> Tanaf-kitaun, or Tanaf for short, is a font made for the script form of
+> Vulcan that uses the spiral shapes for letters. This font is unchanged;
+> it is not compatible with any other font.
+>
+> Though copyrighted, all fonts may be copied, distributed, and modified.
+> If you have a web page, feel free to distribute the fonts from there.
+
+NOT SIL OFL. Web/specimen extra only. Not copied by the FreeBSD installer.
+Zun is not shipped.

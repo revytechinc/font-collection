@@ -35,8 +35,9 @@ self-hosted `www/fonts/*.woff2`). Origin nginx: `www/nginx.example.conf`.
 | Terminal | **Noto Sans Mono** Regular + Bold | TTF + WOFF2 | same |
 | Console PSF2 | CloudBSD-Latn-8x16, CloudBSD-Piqd-16x16 | PSF2 | see § Console |
 
-**Not shipped:** Zun, Iyik, Tengwar Annatar, Disney Atlantean dingbats, WTFPL
-pIqaDqoq as primary, Mandel/vaHbo’.
+**Not shipped (OS/pkg):** Zun, Tengwar Annatar, Disney Atlantean dingbats, WTFPL
+pIqaDqoq as primary, Mandel/vaHbo’. **Iyik** (plus Kitaun/Tanaf/Golsu/Dzhaleyl) is an
+**informal web extra** only — not OFL, not `make install`.
 
 Every custom face is actually used: fontconfig selects Noto / qolqoS / Alcarin;
 the web specimen `@font-face`s every family (including HaSta and bold cuts);
@@ -45,10 +46,15 @@ Noto Sans Mono + qolqoS.
 
 ### Vulcan / Golic
 
-There is **no native Unicode Golic font** we can redistribute. Do not download
-Zun or Iyik into this tree. Latin transcription uses Noto. For personal native
-Golic typesetting, request **Zun** by email from **skladan at korsaya.org**.
-This collection does **not** redistribute Zun.
+There is **no Unicode / CSUR Golic block**. **Zun** is not redistributable;
+request it from **skladan at korsaya.org**. This collection does **not**
+redistribute Zun.
+
+**Iyik Vulkansu** is shipped as an informal web/specimen extra (`fonts/vul/iyik/`,
+`www/fonts/Iyik-Vulkansu.woff2`, https://fun.cloudbsd.cat/vulcan.html). Same 2019
+zip also gives Kitaun and Tanaf. Later Vulcan Quest grants cover Golsu and
+Dzhaleyl extras. These are **not OFL** and are **not** FreeBSD OS/pkg defaults.
+Latin transcription beside the overlay uses Noto. See `fonts/vul/README.md`.
 
 ### Dig Adlantisag
 
@@ -70,7 +76,7 @@ Constructed/fictional languages are kept on purpose. See `docs/LANGUAGES.md`.
 | Dothraki | ASCII (optional pedagogical acutes in Latin-1) |
 | Lìʼfya leNaʼvi | ìÌ äÄ ùÙ and **ʼ U+02BC** |
 | Valyrian / Valyrio | Āā Ēē Īī Ōō Ūū and **Ȳȳ U+0232/U+0233** |
-| Dig Adlantisag, Vulcan Latin, Dothraki | ASCII (+ `sh`) |
+| Dig Adlantisag, Vulcan Latin, Dothraki | ASCII (+ `sh`). Vulcan overlay extras are separate (Iyik). |
 
 ## 1. FreeBSD — first class
 
@@ -213,7 +219,7 @@ PSF2 is a dumb bitmap: no OpenType, no combining marks, no joining.
 | English, Esperanto, Dothraki, Naʼvi, Valyrian, Atlantean Latin, Vulcan Latin | Yes — `CloudBSD-Latn-8x16.psf` |
 | pIqaD | Awkward but possible — `CloudBSD-Piqd-16x16.psf` (512 glyphs) |
 | Tengwar | **No** — tehtar are combining marks that need GPOS |
-| Golic native | **No** — joining / no Unicode |
+| Golic native | **No** — joining / no Unicode (Iyik overlay is web-only) |
 | Atlantean native | **No** — not redistributable |
 
 **FreeBSD `vt(4)`** does not load Linux PSF2 directly. Convert with `vtfontcvt(1)`
@@ -240,6 +246,7 @@ Names. Rebuild: `make psf` (python3 + fontTools + Pillow).
 | Alcarin Tengwar | SIL OFL 1.1 | Toshi Omagari; RFN `Alcarin` |
 | Noto Sans / Mono | SIL OFL 1.1 | The Noto Project Authors |
 | Console PSF2 | SIL OFL 1.1 (Modified Version) | derived; no RFN used |
+| Iyik / Kitaun / Tanaf / Golsu / Dzhaleyl | Informal (not OFL) | Vulcan Quest / Zavel; web extra only |
 
 U+F8FF in qolqoS: mention https://hol.kag.org (see NOTICE).
 Font license ≠ CBS / Disney / Tolkien / Paramount trademark license.
@@ -257,12 +264,15 @@ fonts/tlh/hasta/{ttf,woff2}/   HaSta display extra
 fonts/qya/alcarin/{otf,woff,woff2}/ + OFL.txt
 fonts/latn/noto-sans/{ttf,woff2}/ + OFL.txt
 fonts/latn/noto-sans-mono/{ttf,woff2}/ + OFL.txt
+fonts/vul/README.md            informal Golic extras (NOT installed)
+fonts/vul/iyik/                Iyik TTF+WOFF2 + LICENSE.txt
+fonts/vul/{kitaun,tanaf,golsu,dzhaleyl}/
 fonts/console/psf/
 fontconfig/65-revytech-fonts.conf
 www/index.html                 specimen hub (open this locally)
 www/*.html                     language pages + faces.html
 www/css/specimen.css
-www/fonts/*.woff2              self-contained copies (same as fonts/.../woff2)
+www/fonts/*.woff2              OFL copies + Iyik/Kitaun/Tanaf/Golsu/Dzhaleyl extras
 www/nginx.example.conf         fun.cloudbsd.cat origin :80
 www/demo.html                 redirect to index.html
 samples/*.txt

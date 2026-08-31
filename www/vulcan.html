@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vulcan Latin — REVYTECH specimen — fun.cloudbsd.cat</title>
-<meta name="description" content="Golic Vulcan Latin specimen. Zun is not shipped. fun.cloudbsd.cat.">
+<title>Vulcan / Golic — REVYTECH specimen — fun.cloudbsd.cat</title>
+<meta name="description" content="Golic Vulcan specimen: Iyik overlay (informal web extra), Kitaun, Tanaf, Golsu, Dzhaleyl. Zun is not shipped. fun.cloudbsd.cat only.">
 <link rel="canonical" href="https://fun.cloudbsd.cat/vulcan.html">
 <link rel="stylesheet" href="css/specimen.css">
 </head>
@@ -26,7 +26,7 @@
     </div>
   </header>
   <div class="meta-strip">
-    <span>SYS <strong>OFL 1.1</strong></span>
+    <span>SYS <strong>OFL 1.1 + informal Iyik</strong></span>
     <span>PACK <strong>BSD-3 REVYTECH</strong></span>
     <span>HOST <strong>fun.cloudbsd.cat</strong></span>
     <span class="leds" aria-hidden="true"><i class="led on"></i><i class="led warn"></i><i class="led"></i></span>
@@ -46,22 +46,130 @@
 <a href="faces.html">Faces</a>
   </nav>
   <main id="main">
-    <p class="kicker">Channel 0A · Vulcan / Golic</p>
+    <p class="kicker">Channel 0A · Vulcan / Golic · English first</p>
     <h1 class="plate" style="margin-top:0">Vulcan / Golic</h1>
 
-    <section class="viewscreen">
+    <section class="viewscreen" aria-label="Golic overlay viewscreen">
       <span class="vs-corners" aria-hidden="true"><i></i><i></i></span>
-      <p class="kicker">Golic Vulcan · Latin transcription · no native font</p>
-      <p class="sample">Dif-tor heh smusma.</p>
+      <div class="hero-split">
+        <div>
+          <p class="kicker">Iyik Vulkansu · Latin-1 overlay · no CSUR</p>
+          <p class="hero-golic" lang="und" title="Iyik overlay of the Latin keys for Dif-tor heh smusma.">dif-tor heh smusma.</p>
+          <p class="latin-readout">Noto Latin: Dif-tor heh smusma. — “live long and prosper”</p>
+        </div>
+        <div>
+          <p class="lede"><strong>English first.</strong> Native Golic (gotavlu-zukitaun) has <strong>no Unicode / CSUR block</strong>. The glyphs on the left are not a coded script — they are Iyik’s Latin overlay. Type the same keys as the romanization and the Golic-looking letters appear. This page is hosted on <strong>fun.cloudbsd.cat</strong> only.</p>
+          <div class="guidelines">
+            <p>Shipped informal extra: <strong>Iyik Vulkansu</strong> (modern Golic backup). Not OFL. Not in the FreeBSD pkg image as a primary face.</p>
+            <p><strong>Zun</strong> (korsaya.org) is superior and is <em>not</em> shipped. Request it by email from skladan at korsaya.org. REVYTECH does not redistribute Zun.</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <p class="note">Native Golic (gotavlu-zukitaun) is a joining script with no Unicode / CSUR block. This collection does <strong>not</strong> ship Zun or Iyik. Latin transcription uses Noto Sans.</p>
-    <p class="note">For personal native Golic typesetting, request <strong>Zun</strong> by email from skladan at korsaya.org. REVYTECH does not redistribute Zun.</p>
+
+    <h2 class="plate">Script primer <span>overlay dingbat, not Unicode</span></h2>
+    <p class="note">Golic Vulcan is a joining / contextual modern script (plus handwriting and ceremonial calligraphy). Existing redistributable fonts overlay Latin / Windows-1252 code points. That is a dingbat mapping. Consoles and proper Unicode pipelines cannot treat this as a script.</p>
+    <ul class="note">
+      <li><strong>gotavlu-zukitaun</strong> — modern standard script. Display face here: Iyik. Teaching extra: Golsu.</li>
+      <li><strong>el’ru-kitaun</strong> — handwriting. Extra: Kitaun (vertical in native use).</li>
+      <li><strong>vanu-tanaf-kitaun</strong> — ceremonial calligraphy. Extra: Tanaf (not Zun-compatible).</li>
+      <li><strong>Dzhaleyl</strong> — ancient plant-themed teaching extra (kirshara lettering, Zavel’s FontForge face).</li>
+    </ul>
+    <p class="map-note">Key map · ä / U+00E4 / Alt+0228 = au · Iyik also maps extra au to capital W (Zun-incompatible) · Iyik is missing several ASCII capitals (B D F J K L M N P R V X), so overlay samples use lowercase keys that actually exist in the cmap.</p>
+
+    <h2 class="plate">Modern Golic <span>Iyik Vulkansu · display</span></h2>
+    <p class="golic">dif-tor heh smusma.</p>
+    <p class="latin-readout">Dif-tor heh smusma. · live long and prosper</p>
+    <p class="golic">itaren. naat na’du. dang-stariben du.</p>
+    <p class="latin-readout">Itaren. Naat na’du. Dang-stariben du.</p>
+    <p class="golic">kä t’surak</p>
+    <p class="latin-readout">kau t’Surak · “au” typed as ä (U+00E4), the same Alt+0228 slot as Zun</p>
+    <p class="map-note">Iyik however is free to distribute. Informal grant only — not OFL, not an OS default.</p>
+
+    <h2 class="plate">Handwriting <span>Kitaun</span></h2>
+    <p class="kitaun">dif-tor heh smusma.</p>
+    <p class="latin-readout">Same Latin keys through Kitaun. Native use is vertical; this specimen is the on-screen (unrotated) overlay.</p>
+    <p class="map-note">ä / Alt+0228 = au · same format as Zun / Iyik if care is taken · extra W = au is Iyik/Golsu convenience, not Kitaun’s main story</p>
+
+    <h2 class="plate">Ceremonial <span>Tanaf Kitaun</span></h2>
+    <p class="tanaf">dif-tor heh smusma.</p>
+    <p class="latin-readout">Tanaf is a learning face for the formal swirled script. It is not Zun-compatible; combination glyphs fill the keyboard.</p>
+    <p class="map-note">Not interchangeable with Iyik/Zun documents · still informal “free to distribute”</p>
+
+    <h2 class="plate">Teaching extras <span>Golsu · Dzhaleyl</span></h2>
+    <p class="note">Same author, later packages. Golsu is a fuller modern overlay (2025 cut maps unused keys so Alt codes are optional). Dzhaleyl is the ancient plant script extra.</p>
+    <p class="golsu">Dif-tor heh smusma.</p>
+    <p class="latin-readout">Golsu (2025 golsu1.ttf) · mixed case works; this cut has a full ASCII cmap</p>
+    <p class="dzhaleyl">dif-tor heh smusma.</p>
+    <p class="latin-readout">Dzhaleyl · teaching extra · originally top-to-bottom, right-to-left</p>
+
+    <h2 class="plate">Inventory <span>Zun request-only · no CSUR</span></h2>
+    <table class="inventory">
+      <thead>
+        <tr>
+          <th>Face</th>
+          <th>Status</th>
+          <th>Encoding</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Zun (korsaya.org)</td>
+          <td>Request only — email skladan at korsaya.org. Not redistributable. Never shipped here.</td>
+          <td class="mono">Latin/ANSI overlay · no Unicode</td>
+        </tr>
+        <tr>
+          <td>Iyik Vulkansu</td>
+          <td>Shipped informal web extra (this specimen). Not OFL. Not a FreeBSD pkg primary.</td>
+          <td class="mono">Latin-1 overlay dingbat</td>
+        </tr>
+        <tr>
+          <td>Kitaun / Tanaf</td>
+          <td>Shipped informal extras from the same 2019 “free to distribute” zip.</td>
+          <td class="mono">Latin overlay · Tanaf ≠ Zun</td>
+        </tr>
+        <tr>
+          <td>Golsu / Dzhaleyl</td>
+          <td>Shipped informal extras (2025 grant: copy, distribute, modify, web-host).</td>
+          <td class="mono">Latin overlay dingbat</td>
+        </tr>
+        <tr>
+          <td>CSUR / Unicode Golic</td>
+          <td>None. There is no Golic block. Do not invent one for this pack.</td>
+          <td class="mono">—</td>
+        </tr>
+        <tr>
+          <td>Noto Sans</td>
+          <td>OFL Latin transcription (beside every overlay sample).</td>
+          <td class="mono">U+0000–024F, U+02BC</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 class="plate">Latin corpus <span>public lines · Noto Sans</span></h2>
+    <div class="corpus">
+      <p class="sample">Dif-tor heh smusma. — live long and prosper</p>
+      <p class="sample">Live long and prosper.</p>
+      <p class="sample">Stal Stonn le-matya. — Stonn killed the le-matya. <span class="note">(korsaya.org, Modern Vulcan Script)</span></p>
+      <p class="sample">Itaren. — Thank you. <span class="note">(korsaya.org, Expressing Thanks)</span></p>
+      <p class="sample">Naat na’du. — Respect to you.</p>
+      <p class="sample">Wa’paitaren du. — You (are) very much appreciated.</p>
+      <p class="sample">Rok-tor nash-veh ta ak’kup-ragel-tor etek. — I hope that we can meet soon.</p>
+      <p class="sample">Sanoi ta ak’kup-ragel-tor etek. — It is agreeable that we can meet soon.</p>
+      <p class="sample">Dang-stariben du. — You should speak.</p>
+      <p class="sample">E’nam-tor kisheya. — It’s just an accident.</p>
+      <p class="sample">Vesht nam-tor yar-le-matya ik stal Stonn. — It was a green le-matya that Stonn killed.</p>
+    </div>
+    <p class="note">Those Golic Latin lines are quoted from public HTML on <a href="https://korsaya.org/">korsaya.org</a> (Watkins). They are transcription, not a copy of the Zun manual PDF. Overlay samples above use the same keys through Iyik/Kitaun/Tanaf/Golsu — they are not a CSUR encoding.</p>
+
+    <h2 class="plate">Disclaimer <span>font grant ≠ trademark</span></h2>
+    <p class="note">This is a constructed-language coverage page on <strong>fun.cloudbsd.cat</strong> only. Iyik’s informal “free to distribute” grant covers the font software Zavel drew. It is <strong>not</strong> a trademark license for “Vulcan,” “Golic,” Star Trek, or related marks of Paramount / CBS. It is not an official Paramount, CBS, or korsaya.org product. Zun remains email-only from skladan at korsaya.org and is not in this tree.</p>
 
   </main>
   <footer class="hull-foot">
     <p class="host">fun.cloudbsd.cat</p>
-    <p>Fonts: SIL Open Font License 1.1 (pIqaD qolqoS, Klingon pIqaD HaSta, Alcarin Tengwar, Noto Sans, Noto Sans Mono). Packaging © 2026 REVYTECH, Inc. (BSD 3-Clause). Self-hosted WOFF2 only.</p>
-    <p>This is a <strong>pIqaD specimen</strong> and constructed-language coverage page. Font license is not a trademark license — not an official CBS, Paramount, Disney, or Tolkien Estate product.</p>
+    <p>OFL 1.1 faces: pIqaD qolqoS, Klingon pIqaD HaSta, Alcarin Tengwar, Noto Sans, Noto Sans Mono. Informal web extras (not OFL, not OS default): Iyik Vulkansu, Kitaun, Tanaf, Golsu, Dzhaleyl — Vulcan Quest / Zavel. Packaging © 2026 REVYTECH, Inc. (BSD 3-Clause). Self-hosted WOFF2 only.</p>
+    <p>Font license is not a trademark license — not an official CBS, Paramount, Disney, or Tolkien Estate product. Host: fun.cloudbsd.cat only.</p>
   </footer>
 </div>
 </body>

@@ -1,0 +1,26 @@
+Kitaun (“writing”) — informal redistribution grant
+Author: Zavel (Vulcan Quest). Handwriting face; read vertically like most
+other Vulcan fonts. Same 2019 zip and grant as Iyik.
+
+Source:
+  https://vulcanquest.wordpress.com/2019/12/22/fonts/
+  https://drive.google.com/open?id=16tLCiEGhsjB_kO_wIOHylEYcGLdp5oBh
+  File in zip: v fonts/kitaun.ttf  (internal font name “kitaun”)
+
+Quoted grant (WordPress post 2019-12-22):
+
+> All of these fonts are free to distribute to anyone who wants them.
+
+> I put together first, a hand written font which is called “Kitaun”
+> meaning “writing.” … Kitaun is read vertically like most other Vulcan fonts.
+
+2025-11-17 update (same author, same face, “no changes made”):
+
+> Elru and Kitaun fonts have had no changes made, these are the original
+> handwriting fonts, created from the characters at http://korsaya.org
+>
+> Though copyrighted, all fonts may be copied, distributed, and modified.
+> If you have a web page, feel free to distribute the fonts from there.
+
+NOT SIL OFL. Web/specimen extra only. Not copied by the FreeBSD installer.
+Latin overlay dingbat. ä / Alt+0228 = au. Zun is not shipped.

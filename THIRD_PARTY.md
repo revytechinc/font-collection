@@ -10,6 +10,8 @@ Copy of each OFL is next to the face (`OFL.txt`).
 | Alcarin Tengwar | `fonts/qya/alcarin/` | SIL OFL 1.1, RFN `Alcarin` | https://github.com/Tosche/Alcarin-Tengwar | CSUR-based U+E000–U+E07F (some extras beyond) |
 | Noto Sans | `fonts/latn/noto-sans/` | SIL OFL 1.1 | https://github.com/notofonts/latin-greek-cyrillic and notofonts.github.io monthly | Latin, Ext-A, Ext-B ȳ, U+02BC |
 | Noto Sans Mono | `fonts/latn/noto-sans-mono/` | SIL OFL 1.1 | same | same, monospace |
+| Iyik Vulkansu (web extra) | `fonts/vul/iyik/` | Informal (not OFL) | https://vulcanquest.wordpress.com/2019/12/22/fonts/ | Latin-1 overlay dingbat |
+| Kitaun / Tanaf / Golsu / Dzhaleyl | `fonts/vul/` | Informal (not OFL) | Vulcan Quest | Latin overlay extras |
 
 ## hol.kag.org (U+F8FF)
 
@@ -23,7 +25,7 @@ in a commercial product. This collection mentions that URL for that glyph.
 | Name | Why |
 |---|---|
 | Zun | Proprietary; email only from skladan at korsaya.org. Request it yourself for personal Golic typesetting. We do not redistribute it. |
-| Iyik Vulkansu | Informal “free to distribute” only; no OFL; Latin overlay dingbat. |
+| Iyik Vulkansu (web extra) | Informal “free to distribute”; no OFL; Latin overlay; **not** OS default. Zun still absent. |
 | Tengwar Annatar | Freeware + commercial copy-back. |
 | Disney Atlantean dingbat fonts | Copyright The Walt Disney Company. Latin transcription only. |
 | pIqaDqoq / DIn pIqaD | WTFPL; not the primary face. |

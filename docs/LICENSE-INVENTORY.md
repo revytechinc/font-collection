@@ -1,6 +1,6 @@
 # REVYTECH font collection — license inventory
 
-**Date:** 2026-08-30 (America/Chicago)  
+**Date:** 2026-08-30; Iyik web-extra ship 2026-08-31 (America/Chicago)  
 **Scope:** Verify redistributable licenses for the REVYTECH font collection (includes the CloudBSD constructed-language faces). Work performed on the box only; no clones onto user machines; no credentials/tokens/SSH keys read.  
 **Method:** Upstream LICENSE/OFL pages, project pages, GitHub raw license files, CSUR registry. Quotes are short excerpts from those sources.
 
@@ -164,8 +164,8 @@ Vulcan Quest (third party, confirming the distribution model):
 | Redistributable | **YES (informal)** — not a clean OS-vendoring license |
 | Unicode range | **Not Unicode.** Author: Iyik uses the same key/Alt-code mapping as Zun (example: Alt+0228 → same “au” glyph as Zun’s U+00E4 slot). Also maps extra “au” to capital W (Zun-incompatible). |
 | TTF/OTF | TTF in the Google Drive zip (author-made in FontForge, “using korsaya.org as a guide”) |
-| WOFF2 | Technically possible; **do not** unless legal accepts the informal grant |
-| PSF | Poor: Latin overlay dingbat; console would show “wrong” ASCII if the PSF is not selected |
+| WOFF2 | **Shipped as specimen extra** (`fonts/vul/iyik/woff2/Iyik-Vulkansu.woff2`). Format conversion only. |
+| PSF | Poor: Latin overlay dingbat; **do not** make a console face. |
 
 **Quoted evidence (this *is* the actual license text):**
 
@@ -178,7 +178,15 @@ Vulcan Quest (third party, confirming the distribution model):
 - Grant is **redistribution only**; no statement about modification, embedding, sublicensing, or relicensing.
 - Glyphs were drawn to imitate Zun as a fallback. That is **not** a copy of the Zun *file*, but a conservative OS vendor may still want to avoid shipping a lookalike of a non-redistributable face.
 - Same post also licenses Kitaun, El’ru, Tanaf under the same informal sentence — same caveats.
-- **Recommendation:** Do **not** vendor Iyik in this collection. Document Zun’s email path; render Vulcan in **Latin transcription** with Noto/DejaVu.
+- **Recommendation (updated 2026-08-31):** Ship Iyik as a **web/specimen extra only** (`fonts/vul/`, `www/fonts/`, fun.cloudbsd.cat). Do **not** add it to `make install`, fontconfig, or the FreeBSD pkg image as a primary/OFL face. Keep Zun’s email path. Render Latin transcription with Noto beside the overlay. CSS family `Iyik Vulkansu` is not an OFL RFN.
+
+### 2.3 Kitaun and Tanaf (same 2019 zip as Iyik)
+
+Same informal sentence (“All of these fonts are free to distribute to anyone who wants them.”). Shipped as extras next to Iyik. Tanaf is **not** Zun-compatible. Not OFL. Not OS default.
+
+### 2.4 Golsu and Dzhaleyl (later Vulcan Quest packages)
+
+2022 Golsu zip readme: “Both fonts are free to distribute, copy, share, modify or re-post.” 2025-11-17 updated-fonts post: “Though copyrighted, all fonts may be copied, distributed, and modified. If you have a web page, feel free to distribute the fonts from there.” Shipped as extras (`fonts/vul/golsu`, `fonts/vul/dzhaleyl`). Not OFL. Not OS default. **Zun still not shipped.**
 
 ---
 
@@ -440,7 +448,7 @@ PSF/PSF2 = bitmap, typically 256 or 512 glyphs, 8×16 (or 8×8/8×14). Combining
 | **Klingon pIqaD Mandel** | same / mandel zip+licence | SIL OFL 1.1 | **YES** | U+F8D0–U+F8FF | TTF | convert | possible | Klinzhai shapes; extra, not default. |
 | **Klingon pIqaD vaHbo’** | same / vahbo' zip+licence | SIL OFL 1.1 | **YES** | U+F8D0–U+F8FF | TTF | convert | possible | Whimsical; extra. |
 | **Zun** | http://korsaya.org/ (email only) | Proprietary; no-mod, no-resale, email distribution | **NO** | Latin overlay, not Unicode | do not ship | no | no | **Do not vendor.** |
-| **Iyik Vulkansu** | https://vulcanquest.wordpress.com/2019/12/22/fonts/ zip on Google Drive | Informal “free to distribute” only | **YES (informal)** | Latin/ANSI overlay matching Zun | TTF in zip | no | no | **Do not recommend.** No OFL file. |
+| **Iyik Vulkansu** | https://vulcanquest.wordpress.com/2019/12/22/fonts/ zip on Google Drive | Informal “free to distribute” only | **YES (informal)** | Latin/ANSI overlay matching Zun | TTF in zip | **web extra** | no | Specimen only; not OFL OS default. |
 | **Tengwar Annatar** | Winge freeware (archive URL above) | Freeware + commercial copy-back | **NO** (for OS) | Smith Latin overlay | do not ship | no | no | Confirmed not OFL. |
 | **Alcarin Tengwar** | https://github.com/Tosche/Alcarin-Tengwar | SIL OFL 1.1 | **YES** | CSUR-based U+E000+ | **OTF/TTF yes** | **yes in repo** | **no** | **Primary Tengwar.** |
 | **Tengwar Telcontar / FTFP** | https://freetengwar.sourceforge.net/ | GPL-3 + font exception (Telcontar); project also lists OFL | **YES** | U+E000–U+E07D | yes | convert | no | Prefer Alcarin for OFL. |
@@ -459,13 +467,13 @@ One primary face per unique **script**, plus one Latin family for all romanized 
 |---|---|---|---|
 | **Klingon pIqaD (primary)** | **pIqaD qolqoS** (dadap) | TTF + WOFF2; optional PSF cmap | OFL 1.1, CSUR U+F8D0–U+F8FF, GitHub LICENSE inspectable. |
 | **Klingon pIqaD (display, optional)** | **Klingon pIqaD HaSta** (Evertype) | TTF + OFL HTML | OFL 1.1, conventional KLI shapes. Mandel/vaHbo’ only if you want extras. |
-| **Vulcan Golic** | **Nothing native.** Document korsaya.org email for Zun. | — | Zun **NO**. Iyik informal-only, non-Unicode overlay. Use Latin transcription. |
+| **Vulcan Golic** | **Iyik web extra** + Noto Latin. Zun still email-only. | WOFF2 in `www/fonts/` and `fonts/vul/` | Zun **NO**. Iyik informal-only overlay; **not** OFL OS default. |
 | **Tengwar (primary)** | **Alcarin Tengwar** | OTF + WOFF2 from upstream | Clear OFL.txt, CSUR-based PUA, combining tehtar. GUI/print only. |
 | **Atlantean** | **Latin transcription only** | (covered by Noto) | Disney owns the script/font. |
 | **Esperanto, Dothraki, Naʼvi, Valyrian, English UI** | **Noto Sans** | TTF/OTF + WOFF2 | OFL 1.1; all required Latin code points. |
 | **Terminals / PSF** | **Noto Sans Mono** (OFL) *or* **DejaVu Sans Mono** (Vera) | TTF + one PSF2 | PSF subset: ASCII + eo (ĉĝĥĵŝŭ) + Naʼvi (ìäʼù) + Valyrian macrons + ȳ. Optional second PSF for pIqaD PUA. |
 
-**Do not ship:** Zun, Iyik (as a supported OS font), Tengwar Annatar, any Disney Atlantean dingbat, Greifswalder as the Unicode Tengwar, Brill (pairs with Alcarin but is not OFL).
+**Do not ship:** Zun, Iyik as a supported **OS/pkg** font (web extra is OK), Tengwar Annatar, any Disney Atlantean dingbat, Greifswalder as the Unicode Tengwar, Brill (pairs with Alcarin but is not OFL).
 
 **License hygiene when vendoring OFL faces**
 
@@ -479,4 +487,4 @@ One primary face per unique **script**, plus one Latin family for all romanized 
 
 - SourceForge live HTML for Free Tengwar was Cloudflare-blocked from this box; Telcontar GPL + exception is corroborated by AUR, font name tables, and search-indexed project text. Alcarin already satisfies “at least one clearly OFL Tengwar.”
 - Greifswalder: author-site dual-license statement verified; open the zip’s bundled licence before a final ship if you include it (we do not recommend including it).
-- Iyik Google Drive zip was not downloaded (no need to vendor); license text is only the WordPress post.
+- Iyik Google Drive zip **was** fetched 2026-08-31 (`16tLCiEGhsjB_kO_wIOHylEYcGLdp5oBh`). Zip contains no OFL; license text is the WordPress post (quoted in `fonts/vul/iyik/LICENSE.txt`). 2025 updated-fonts zip (`10FaK0AjKIlCsooUzOVyMCsSbwcniLGH-`) supplied Golsu/Dzhaleyl extras. Zun was not downloaded.

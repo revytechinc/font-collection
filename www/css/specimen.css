@@ -62,6 +62,47 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Iyik Vulkansu";
+  src: url("../fonts/Iyik-Vulkansu.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kitaun";
+  src: url("../fonts/Kitaun.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tanaf Kitaun";
+  src: url("../fonts/Tanaf.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Golsu";
+  src: url("../fonts/Golsu.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dzhaleyl";
+  src: url("../fonts/Dzhaleyl.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --hull: #07080b;
   --hull-2: #0d1016;
@@ -83,6 +124,11 @@
   --font-piqad: "pIqaD qolqoS", "Noto Sans", sans-serif;
   --font-hasta: "Klingon pIqaD HaSta", "pIqaD qolqoS", sans-serif;
   --font-tengwar: "Alcarin Tengwar", "Noto Sans", sans-serif;
+  --font-iyik: "Iyik Vulkansu", "Noto Sans", sans-serif;
+  --font-kitaun: "Kitaun", "Iyik Vulkansu", sans-serif;
+  --font-tanaf: "Tanaf Kitaun", "Noto Sans", sans-serif;
+  --font-golsu: "Golsu", "Iyik Vulkansu", sans-serif;
+  --font-dzhaleyl: "Dzhaleyl", "Noto Sans", sans-serif;
   --max: 72rem;
 }
 
@@ -575,3 +621,77 @@ footer.hull-foot .host {
     align-items: end;
   }
 }
+
+.hero-golic {
+  font-family: var(--font-iyik);
+  font-size: clamp(2.2rem, 9vw, 4.8rem);
+  line-height: 1.3;
+  color: #f3eee4;
+  text-shadow: 0 0 28px rgba(197, 18, 26, 0.35);
+  margin: 0.15rem 0 0.35rem;
+  overflow-wrap: anywhere;
+}
+.golic {
+  font-family: var(--font-iyik);
+  font-size: clamp(1.55rem, 3.8vw, 2.35rem);
+  line-height: 1.5;
+  color: #f4efe6;
+}
+.kitaun {
+  font-family: var(--font-kitaun);
+  font-size: clamp(1.7rem, 4.2vw, 2.5rem);
+  line-height: 1.55;
+  color: var(--amber);
+}
+.tanaf {
+  font-family: var(--font-tanaf);
+  font-size: clamp(1.8rem, 4.4vw, 2.7rem);
+  line-height: 1.6;
+  color: #f0ebe1;
+}
+.golsu {
+  font-family: var(--font-golsu);
+  font-size: clamp(1.55rem, 3.8vw, 2.35rem);
+  line-height: 1.5;
+  color: #f4efe6;
+}
+.dzhaleyl {
+  font-family: var(--font-dzhaleyl);
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  line-height: 1.55;
+  color: #c8d4a8;
+}
+.card .preview.golic {
+  font-family: var(--font-iyik);
+  font-size: 1.55rem;
+  line-height: 1.4;
+}
+.inventory {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 0.6rem 0 1.2rem;
+}
+.inventory th, .inventory td {
+  border-bottom: 1px solid var(--hair);
+  padding: 0.45rem 0.55rem;
+  text-align: left;
+  vertical-align: top;
+}
+.inventory th {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+  font-weight: 700;
+}
+.inventory td.mono { font-size: 0.85rem; }
+.map-note {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--amber);
+  letter-spacing: 0.04em;
+  margin: 0.1rem 0 0.85rem;
+}
+.corpus .sample { margin-bottom: 0.45rem; }

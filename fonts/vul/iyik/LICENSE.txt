@@ -1,0 +1,32 @@
+Iyik Vulkansu (short name: Iyik) — informal redistribution grant
+Author: Zavel (Vulcan Quest). Made in FontForge with korsaya.org as a glyph guide.
+This is NOT SIL OFL. There is no OFL.txt / GPL / MIT in the upstream zip.
+REVYTECH ships this face as a web/specimen extra only. It is not an OS-default
+install face and is not copied by make install / install/freebsd.sh.
+
+Source zip (2019-12-22 fonts post):
+  https://vulcanquest.wordpress.com/2019/12/22/fonts/
+  https://drive.google.com/open?id=16tLCiEGhsjB_kO_wIOHylEYcGLdp5oBh
+  File in zip: v fonts/iyik.ttf  (internal font name “iyik”)
+
+Quoted grant (the actual license text; WordPress post 2019-12-22):
+
+> The last font is Iyik Vulkansu or Iyik for short. it means Modern Vulcan
+> or Modern for short. This font is created as a backup. In case someone can
+> not get a hold of Zun, they won’t be left without a usable font for learning.
+> Zun is superior, and I have a copy, but it is not my creation to give away.
+> It can be obtained from SKLADAN @KORSAYA .ORG by e-mail request. For some
+> reason if one is unable to obtain Zun, IyIk will work in its place though
+> inferior. Iyik however is free to distribute.
+
+> All of these fonts are free to distribute to anyone who wants them.
+
+Encoding: Latin / Windows-1252 overlay dingbat (same keys as Latin). There is
+no Unicode / CSUR Golic block. Alt+0228 / U+00E4 (ä) is the “au” glyph.
+Iyik also maps extra “au” to capital W (Zun-incompatible).
+
+Zun is NOT redistributable and is NOT in this tree. Request Zun yourself
+from skladan at korsaya.org. Do not vendor Zun.
+
+WOFF2 here is a format conversion of the Original Version (woff2_compress).
+No glyph edits. CSS family name “Iyik Vulkansu” is not an OFL reserved name.

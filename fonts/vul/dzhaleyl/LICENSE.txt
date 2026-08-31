@@ -1,0 +1,27 @@
+Dzhaleyl — informal teaching extra (ancient plant-themed script)
+Author: Zavel (Vulcan Quest), based on lettering documented at
+https://kirshara.wordpress.com. TTF taken from the 2025-11-17 updated
+fonts zip (more glyphs / Golsu-compatible).
+
+Sources:
+  2019-12-17 Dzhaleyl post:
+    https://vulcanquest.wordpress.com/2019/12/17/dzhaleyl-font/
+    https://drive.google.com/open?id=1p1xerC1EpehWuG2oFPYHBm8JWFvgD804
+  2025-11-17 updated fonts (this file):
+    https://vulcanquest.wordpress.com/2025/11/17/updated-fonts/
+    https://drive.google.com/file/d/10FaK0AjKIlCsooUzOVyMCsSbwcniLGH-/view
+    File in zip: vulcan font 1.1/dzhaleyl.ttf
+
+Quoted grant (2025-11-17, covering every font in that zip):
+
+> Dzhaleyl font is basically the same but made compatible with Golsu the
+> best I could. This font comes from https://kirshara.wordpress.com/.
+>
+> Though copyrighted, all fonts may be copied, distributed, and modified.
+> If you have a web page, feel free to distribute the fonts from there.
+> As you see what happened to Zun, it is now apparently difficult to get,
+> so distribute these freely.
+
+NOT SIL OFL. Web/specimen extra only. Not copied by the FreeBSD installer.
+Read top-to-bottom, right-to-left in the author’s original use. Latin overlay.
+Zun is not shipped.

@@ -1,0 +1,32 @@
+Golsu (“modern golic vulcan”) — informal teaching extra
+Author: Zavel (Vulcan Quest). Successor overlay for learners who cannot
+obtain Zun. TTF taken from the 2025-11-17 “updated fonts” zip (golsu1.ttf,
+internal name “golsu”).
+
+Sources:
+  2022-02-04 dictionary post (golsu.ttf / wonil-golsu.ttf):
+    https://vulcanquest.wordpress.com/2022/02/04/english-vulcan-dictionary/
+    https://drive.google.com/file/d/1plSDz9ABDY9N03KnoZ7DghEEUg0RLI8v/view
+  2025-11-17 updated fonts (this file):
+    https://vulcanquest.wordpress.com/2025/11/17/updated-fonts/
+    https://drive.google.com/file/d/10FaK0AjKIlCsooUzOVyMCsSbwcniLGH-/view
+    File in zip: vulcan font 1.1/golsu1.ttf
+
+Quoted grant from the 2022 zip “Read Me First -Golsu fonts.txt”:
+
+> Both fonts are used at your own risk  (Lawyers tell me I have to say this.)
+> Both fonts are free to distribute, copy, share, modify or re-post.
+
+Quoted grant from the 2025-11-17 WordPress post:
+
+> As mentioned before Zun was the original font, but since it wasn’t mine
+> to give away, I created my own fonts.
+>
+> Though copyrighted, all fonts may be copied, distributed, and modified.
+> If you have a web page, feel free to distribute the fonts from there.
+> As you see what happened to Zun, it is now apparently difficult to get,
+> so distribute these freely. Feel free to improve them.
+
+NOT SIL OFL. Web/specimen extra only. Not copied by the FreeBSD installer.
+Latin overlay dingbat (Alt+0228 / ä still = au; capital W also = au).
+Zun is not shipped. Request Zun from skladan at korsaya.org.

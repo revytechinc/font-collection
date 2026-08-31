@@ -5,7 +5,7 @@
 PREFIX ?= /usr/local
 DESTDIR ?=
 
-.PHONY: all install uninstall woff2 psf
+.PHONY: all install uninstall woff2 woff2-vul psf
 
 all:
 	@echo "Fonts are pre-vendored. Targets: install, uninstall, woff2, psf"
@@ -34,3 +34,16 @@ woff2:
 
 psf:
 	python3 scripts/gen-psf.py
+
+# Informal Golic extras — web only. Not installed by `make install`.
+woff2-vul:
+	woff2_compress fonts/vul/iyik/ttf/iyik.ttf
+	mv -f fonts/vul/iyik/ttf/iyik.woff2 fonts/vul/iyik/woff2/Iyik-Vulkansu.woff2
+	woff2_compress fonts/vul/kitaun/ttf/kitaun.ttf
+	mv -f fonts/vul/kitaun/ttf/kitaun.woff2 fonts/vul/kitaun/woff2/Kitaun.woff2
+	woff2_compress fonts/vul/tanaf/ttf/tanaf.ttf
+	mv -f fonts/vul/tanaf/ttf/tanaf.woff2 fonts/vul/tanaf/woff2/Tanaf.woff2
+	woff2_compress fonts/vul/golsu/ttf/golsu.ttf
+	mv -f fonts/vul/golsu/ttf/golsu.woff2 fonts/vul/golsu/woff2/Golsu.woff2
+	woff2_compress fonts/vul/dzhaleyl/ttf/dzhaleyl.ttf
+	mv -f fonts/vul/dzhaleyl/ttf/dzhaleyl.woff2 fonts/vul/dzhaleyl/woff2/Dzhaleyl.woff2
