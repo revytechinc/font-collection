@@ -47,3 +47,7 @@ woff2-vul:
 	mv -f fonts/vul/golsu/ttf/golsu.woff2 fonts/vul/golsu/woff2/Golsu.woff2
 	woff2_compress fonts/vul/dzhaleyl/ttf/dzhaleyl.ttf
 	mv -f fonts/vul/dzhaleyl/ttf/dzhaleyl.woff2 fonts/vul/dzhaleyl/woff2/Dzhaleyl.woff2
+	woff2_compress fonts/vul/elru/ttf/elru.ttf
+	mv -f fonts/vul/elru/ttf/elru.woff2 fonts/vul/elru/woff2/Elru.woff2
+	woff2_compress fonts/vul/wonil-golsu/ttf/wonil-golsu.ttf
+	mv -f fonts/vul/wonil-golsu/ttf/wonil-golsu.woff2 fonts/vul/wonil-golsu/woff2/Wonil-Golsu.woff2

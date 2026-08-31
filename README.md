@@ -36,7 +36,7 @@ self-hosted `www/fonts/*.woff2`). Origin nginx: `www/nginx.example.conf`.
 | Console PSF2 | CloudBSD-Latn-8x16, CloudBSD-Piqd-16x16 | PSF2 | see § Console |
 
 **Not shipped (OS/pkg):** Zun, Tengwar Annatar, Disney Atlantean dingbats, WTFPL
-pIqaDqoq as primary, Mandel/vaHbo’. **Iyik** (plus Kitaun/Tanaf/Golsu/Dzhaleyl) is an
+pIqaDqoq as primary, Mandel/vaHbo’. **Iyik** (plus Kitaun/El’ru/Tanaf/Golsu/Wonil-Golsu/Dzhaleyl) is an
 **informal web extra** only — not OFL, not `make install`.
 
 Every custom face is actually used: fontconfig selects Noto / qolqoS / Alcarin;
@@ -52,8 +52,8 @@ redistribute Zun.
 
 **Iyik Vulkansu** is shipped as an informal web/specimen extra (`fonts/vul/iyik/`,
 `www/fonts/Iyik-Vulkansu.woff2`, https://fun.cloudbsd.cat/vulcan.html). Same 2019
-zip also gives Kitaun and Tanaf. Later Vulcan Quest grants cover Golsu and
-Dzhaleyl extras. These are **not OFL** and are **not** FreeBSD OS/pkg defaults.
+zip also gives Kitaun, El’ru, and Tanaf. Later Vulcan Quest grants cover Golsu,
+Wonil-Golsu, and Dzhaleyl extras. These are **not OFL** and are **not** FreeBSD OS/pkg defaults.
 Latin transcription beside the overlay uses Noto. See `fonts/vul/README.md`.
 
 ### Dig Adlantisag
@@ -246,7 +246,7 @@ Names. Rebuild: `make psf` (python3 + fontTools + Pillow).
 | Alcarin Tengwar | SIL OFL 1.1 | Toshi Omagari; RFN `Alcarin` |
 | Noto Sans / Mono | SIL OFL 1.1 | The Noto Project Authors |
 | Console PSF2 | SIL OFL 1.1 (Modified Version) | derived; no RFN used |
-| Iyik / Kitaun / Tanaf / Golsu / Dzhaleyl | Informal (not OFL) | Vulcan Quest / Zavel; web extra only |
+| Iyik / Kitaun / El’ru / Tanaf / Golsu / Wonil-Golsu / Dzhaleyl | Informal (not OFL) | Vulcan Quest / Zavel; web extra only |
 
 U+F8FF in qolqoS: mention https://hol.kag.org (see NOTICE).
 Font license ≠ CBS / Disney / Tolkien / Paramount trademark license.
@@ -266,13 +266,13 @@ fonts/latn/noto-sans/{ttf,woff2}/ + OFL.txt
 fonts/latn/noto-sans-mono/{ttf,woff2}/ + OFL.txt
 fonts/vul/README.md            informal Golic extras (NOT installed)
 fonts/vul/iyik/                Iyik TTF+WOFF2 + LICENSE.txt
-fonts/vul/{kitaun,tanaf,golsu,dzhaleyl}/
+fonts/vul/{kitaun,elru,tanaf,golsu,wonil-golsu,dzhaleyl}/
 fonts/console/psf/
 fontconfig/65-revytech-fonts.conf
 www/index.html                 specimen hub (open this locally)
 www/*.html                     language pages + faces.html
 www/css/specimen.css
-www/fonts/*.woff2              OFL copies + Iyik/Kitaun/Tanaf/Golsu/Dzhaleyl extras
+www/fonts/*.woff2              OFL copies + Iyik/Kitaun/El’ru/Tanaf/Golsu/Wonil-Golsu/Dzhaleyl extras
 www/nginx.example.conf         fun.cloudbsd.cat origin :80
 www/demo.html                 redirect to index.html
 samples/*.txt

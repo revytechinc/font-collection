@@ -11,7 +11,7 @@ Copy of each OFL is next to the face (`OFL.txt`).
 | Noto Sans | `fonts/latn/noto-sans/` | SIL OFL 1.1 | https://github.com/notofonts/latin-greek-cyrillic and notofonts.github.io monthly | Latin, Ext-A, Ext-B ȳ, U+02BC |
 | Noto Sans Mono | `fonts/latn/noto-sans-mono/` | SIL OFL 1.1 | same | same, monospace |
 | Iyik Vulkansu (web extra) | `fonts/vul/iyik/` | Informal (not OFL) | https://vulcanquest.wordpress.com/2019/12/22/fonts/ | Latin-1 overlay dingbat |
-| Kitaun / Tanaf / Golsu / Dzhaleyl | `fonts/vul/` | Informal (not OFL) | Vulcan Quest | Latin overlay extras |
+| Kitaun / El’ru / Tanaf / Golsu / Wonil-Golsu / Dzhaleyl | `fonts/vul/` | Informal (not OFL) | Vulcan Quest | Latin overlay extras |
 
 ## hol.kag.org (U+F8FF)
 

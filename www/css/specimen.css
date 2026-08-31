@@ -102,6 +102,22 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "El’ru";
+  src: url("../fonts/Elru.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Wonil-Golsu";
+  src: url("../fonts/Wonil-Golsu.woff2") format("woff2");
+  unicode-range: U+0000-00FF;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --hull: #07080b;
@@ -129,6 +145,8 @@
   --font-tanaf: "Tanaf Kitaun", "Noto Sans", sans-serif;
   --font-golsu: "Golsu", "Iyik Vulkansu", sans-serif;
   --font-dzhaleyl: "Dzhaleyl", "Noto Sans", sans-serif;
+  --font-elru: "El’ru", "Kitaun", sans-serif;
+  --font-wonil: "Wonil-Golsu", "Golsu", sans-serif;
   --max: 72rem;
 }
 
@@ -660,6 +678,18 @@ footer.hull-foot .host {
   font-size: clamp(1.7rem, 4vw, 2.5rem);
   line-height: 1.55;
   color: #c8d4a8;
+}
+.elru {
+  font-family: var(--font-elru);
+  font-size: clamp(1.7rem, 4.2vw, 2.5rem);
+  line-height: 1.55;
+  color: var(--amber);
+}
+.wonil {
+  font-family: var(--font-wonil);
+  font-size: clamp(1.55rem, 3.8vw, 2.35rem);
+  line-height: 1.5;
+  color: #f4efe6;
 }
 .card .preview.golic {
   font-family: var(--font-iyik);

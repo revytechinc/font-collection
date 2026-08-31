@@ -1,0 +1,30 @@
+El’ru — informal redistribution grant (horizontal handwriting extra)
+Author: Zavel (Vulcan Quest). Same 2019 zip and grant as Iyik / Kitaun.
+The author described El’ru as a horizontal handwriting attempt that did not
+work out well; it is still redistributable and shown as a specimen extra.
+TTF taken from the 2025-11-17 “updated fonts” zip (el'ru.ttf; author said
+Elru/Kitaun had no changes vs the 2019 originals).
+
+Source:
+  https://vulcanquest.wordpress.com/2019/12/22/fonts/
+  https://drive.google.com/open?id=16tLCiEGhsjB_kO_wIOHylEYcGLdp5oBh
+  File in zip: v fonts/el'ru.ttf  (internal font name “el'ru”)
+  2025-11-17 copy used here:
+    https://vulcanquest.wordpress.com/2025/11/17/updated-fonts/
+    File in zip: vulcan font 1.1/el'ru.ttf
+
+Quoted grant (WordPress post 2019-12-22):
+
+> All of these fonts are free to distribute to anyone who wants them.
+
+2025-11-17 update (same author):
+
+> Elru and Kitaun fonts have had no changes made, these are the original
+> handwriting fonts, created from the characters at http://korsaya.org
+>
+> Though copyrighted, all fonts may be copied, distributed, and modified.
+> If you have a web page, feel free to distribute the fonts from there.
+
+NOT SIL OFL. Web/specimen extra only. Not copied by the FreeBSD installer.
+Latin overlay dingbat. Horizontal handwriting (unlike Kitaun, which is
+vertical in native use). Zun is not shipped.

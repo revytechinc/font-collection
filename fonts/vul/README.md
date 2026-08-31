@@ -15,8 +15,10 @@ Alcarin.
 |---|---|---|
 | **Iyik Vulkansu** | Modern Golic display on vulcan.html | Latin-1 overlay dingbat |
 | Kitaun | Handwriting extra | same overlay; vertical in native use |
+| **El’ru** | Horizontal handwriting extra | same overlay; author said it did not work out well |
 | Tanaf | Ceremonial extra | more glyphs; **not** Zun-compatible |
 | Golsu | Teaching extra (2025 update) | overlay; full ASCII in this cut |
+| **Wonil-Golsu** | Thinner Golsu companion (2025) | overlay; full ASCII in this cut |
 | Dzhaleyl | Ancient-script extra | overlay; plant theme |
 
 There is **no Unicode / CSUR Golic block**. Typing Latin keys (plus ä /
@@ -31,7 +33,7 @@ Iyik was created as a fallback *because* Zun cannot be given away.
 
 ## License quotes (keep these next to the TTFs)
 
-Iyik / Kitaun / Tanaf (https://vulcanquest.wordpress.com/2019/12/22/fonts/):
+Iyik / Kitaun / El’ru / Tanaf (https://vulcanquest.wordpress.com/2019/12/22/fonts/):
 
 > Iyik however is free to distribute.
 > All of these fonts are free to distribute to anyone who wants them.
@@ -46,5 +48,5 @@ Grant ≠ trademark. Not a Paramount / CBS product. Host:
 **fun.cloudbsd.cat only**.
 
 WOFF2 files are `woff2_compress` conversions of the Original Versions.
-CSS family names (Iyik Vulkansu, Kitaun, Tanaf Kitaun, Golsu, Dzhaleyl)
+CSS family names (Iyik Vulkansu, Kitaun, El’ru, Tanaf Kitaun, Golsu, Wonil-Golsu, Dzhaleyl)
 are the author’s names, not stolen OFL reserved font names.

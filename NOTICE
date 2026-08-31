@@ -41,7 +41,7 @@ Not shipped as OS/pkg primary
 -----------------------------
 * Zun (korsaya.org) — proprietary freeware, email request only; no redistribution.
   NEVER add the Zun file to this tree.
-* Iyik Vulkansu, Kitaun, Tanaf, Golsu, Dzhaleyl — informal Vulcan Quest grants.
+* Iyik Vulkansu, Kitaun, El’ru, Tanaf, Golsu, Wonil-Golsu, Dzhaleyl — informal Vulcan Quest grants.
   Shipped as **web/specimen extras** under fonts/vul/ and www/fonts/ only.
   Not OFL. Not copied by install/freebsd.sh. Not a pkg-image primary.
 * Tengwar Annatar — freeware with commercial copy-back; not OFL.
