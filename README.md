@@ -18,6 +18,12 @@ Install: `sh install.sh` (detects OS) or `make install` on FreeBSD.
 A FreeBSD package may appear later in a REVYTECH pkg repository; until then
 use `make install` / `sh install.sh`. This tree is not a full ports collection.
 
+## Live specimen
+
+The public web specimen is **https://fun.cloudbsd.cat** only.
+Pages in `www/` (`index.html` hub, language specimens, `css/specimen.css`,
+self-hosted `www/fonts/*.woff2`). Origin nginx: `www/nginx.example.conf`.
+
 ## What is included
 
 | Slot | Face | Files | Unicode |
@@ -166,8 +172,15 @@ them in HKCU. Administrators can instead copy the same files to
 
 ## 5. Web `@font-face` and `unicode-range`
 
-See `www/demo.html`. Every family is declared with `unicode-range` and shown
-in a specimen (English first). Minimal stacked example:
+Live specimen: **https://fun.cloudbsd.cat**. Pages live under `www/` (English
+first). Every family is declared with `unicode-range` in `www/css/specimen.css`
+and shown on its own page. The specimen is self-contained: WOFF2 copies sit in
+`www/fonts/` (same files as `fonts/.../woff2/`). Example jail snippet:
+`www/nginx.example.conf` (`server_name fun.cloudbsd.cat` only; origin :80
+serves files; public HTTPS is Cloudflare orange-cloud Universal SSL).
+
+Minimal stacked example (collection-tree paths; the specimen uses `../fonts/`
+from `www/css/`):
 
 ```css
 @font-face {
@@ -221,7 +234,7 @@ Names. Rebuild: `make psf` (python3 + fontTools + Pillow).
 
 | Component | License | Copyright |
 |---|---|---|
-| This collection (layout, Makefile, installers, conf, docs, demo, PSF scripts) | BSD 3-Clause | REVYTECH, Inc. |
+| This collection (layout, Makefile, installers, conf, docs, specimen, PSF scripts) | BSD 3-Clause | REVYTECH, Inc. |
 | pIqaD qolqoS | SIL OFL 1.1 | Daniel Dadap; RFN `pIqaD qolqoS` |
 | Klingon pIqaD HaSta | SIL OFL 1.1 | Mike Neff, Michael Everson |
 | Alcarin Tengwar | SIL OFL 1.1 | Toshi Omagari; RFN `Alcarin` |
@@ -246,7 +259,12 @@ fonts/latn/noto-sans/{ttf,woff2}/ + OFL.txt
 fonts/latn/noto-sans-mono/{ttf,woff2}/ + OFL.txt
 fonts/console/psf/
 fontconfig/65-revytech-fonts.conf
-www/demo.html
+www/index.html                 specimen hub (open this locally)
+www/*.html                     language pages + faces.html
+www/css/specimen.css
+www/fonts/*.woff2              self-contained copies (same as fonts/.../woff2)
+www/nginx.example.conf         fun.cloudbsd.cat origin :80
+www/demo.html                 redirect to index.html
 samples/*.txt
 docs/LICENSE-INVENTORY.md
 docs/LANGUAGES.md
